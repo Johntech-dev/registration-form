@@ -5,11 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node back-end/index.js",
-    "dev": "nodemon back-end/index.js"
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -19,3 +19,4 @@
     "nodemon": "^3.0.1"
   }
 }
+ 
